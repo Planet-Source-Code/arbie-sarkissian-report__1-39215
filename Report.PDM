@@ -1,0 +1,217 @@
+[Root]
+Most Recent Package=Kabrian Report
+
+[Package|Kabrian Report|Kabrian Report 2.0]
+Icon1=ReadMe.txt
+Title1=ReadMe
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=Report.exe
+Title2=Kabrian Report 2.0
+StartIn2=$(AppPath)
+Key2=Icon1
+
+
+[Package|Kabrian Report|Kabrian Report]
+Icon1=Report.exe
+Title1=Kabrian Report
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ReadMe.txt
+Title2=ReadMe
+StartIn2=$(AppPath)
+Key2=Icon2
+
+[Package|Kabrian Report|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Temp\VB\Kabrian Report\Report 3
+
+[Package|Kabrian Report|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Kabrian Report|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Kabrian Report|Files Found]
+
+[Package|Kabrian Report|Files Released]
+
+[Package|Kabrian Report|Missing Dependency Information]
+
+[Package|Kabrian Report|Out-of-Date Dependency Information]
+
+[Package|Kabrian Report|Files Added]
+f:\temp\vb\kabrian report\about.swf=
+f:\temp\vb\kabrian report\database.mdb=
+f:\temp\vb\kabrian report\edit.jpg=
+f:\temp\vb\kabrian report\exit.jpg=
+f:\temp\vb\kabrian report\input.jpg=
+f:\temp\vb\kabrian report\printer.jpg=
+f:\temp\vb\kabrian report\printpreview.jpg=
+f:\temp\vb\kabrian report\search.jpg=
+f:\temp\vb\kabrian report\showall.jpg=
+f:\temp\vb\kabrian report\readme.txt=
+f:\temp\vb\kabrian report\settings.ini=
+F:\Temp\VB\Kabrian Report\Toolbar.swf=
+
+[Package|Kabrian Report|Files Removed]
+
+[Package|Kabrian Report|Files In Project]
+F:\Temp\VB\Kabrian Report\Report.exe=Yes
+C:\WIN98\SYSTEM\MSVBVM60.DLL=Yes
+C:\WIN98\SYSTEM\OLEAUT32.DLL=Yes
+C:\WIN98\SYSTEM\OLEPRO32.DLL=Yes
+C:\WIN98\SYSTEM\ASYCFILT.DLL=Yes
+C:\WIN98\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WIN98\SYSTEM\MSJet35.dll=Yes
+C:\WIN98\SYSTEM\MSJTER35.DLL=Yes
+C:\WIN98\SYSTEM\MSJINT35.DLL=Yes
+C:\WIN98\SYSTEM\VBAJET32.DLL=Yes
+C:\WIN98\SYSTEM\EXPSRV.DLL=Yes
+C:\WIN98\SYSTEM\MSRD2X35.DLL=Yes
+C:\WIN98\SYSTEM\MsRepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WIN98\SYSTEM\VB5DB.DLL=Yes
+C:\WIN98\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WIN98\SYSTEM\MSADODC.OCX=Yes
+C:\WIN98\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WIN98\SYSTEM\DBGRID32.OCX=Yes
+C:\WIN98\SYSTEM\COMDLG32.OCX=Yes
+C:\WIN98\SYSTEM\MSBIND.DLL=Yes
+C:\WIN98\SYSTEM\MSRDO20.DLL=Yes
+C:\WIN98\SYSTEM\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WIN98\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Temp\VB\Kabrian Report\About.swf=Yes
+F:\Temp\VB\Kabrian Report\Database.mdb=Yes
+F:\Temp\VB\Kabrian Report\Edit.jpg=Yes
+F:\Temp\VB\Kabrian Report\Exit.jpg=Yes
+F:\Temp\VB\Kabrian Report\Input.jpg=Yes
+F:\Temp\VB\Kabrian Report\Printer.jpg=Yes
+F:\Temp\VB\Kabrian Report\PrintPreview.jpg=Yes
+F:\Temp\VB\Kabrian Report\Search.jpg=Yes
+F:\Temp\VB\Kabrian Report\ShowAll.jpg=Yes
+C:\WIN98\SYSTEM\SWFLASH.OCX=Yes
+F:\Temp\VB\Kabrian Report\ReadMe.txt=Yes
+C:\WIN98\SYSTEM\MSADO20.TLB=Yes
+F:\Temp\VB\Kabrian Report\Settings.ini=Yes
+C:\WIN98\SYSTEM\TABCTL32.OCX=Yes
+F:\Temp\VB\Kabrian Report\Toolbar.swf=Yes
+
+[Package|Kabrian Report|Configure Registry Files]
+Applicable=No
+
+[Package|Kabrian Report|Configure Remote Servers]
+Applicable=No
+
+[Package|Kabrian Report|Install Locations]
+F:\Temp\VB\Kabrian Report\Report.exe=$(AppPath)
+C:\WIN98\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSADO20.TLB=$(WinSysPath)
+C:\WIN98\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WIN98\SYSTEM\MSJet35.dll=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\MsRepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Temp\VB\Kabrian Report\About.swf=$(AppPath)
+F:\Temp\VB\Kabrian Report\Database.mdb=$(AppPath)
+F:\Temp\VB\Kabrian Report\Edit.jpg=$(AppPath)
+F:\Temp\VB\Kabrian Report\Exit.jpg=$(AppPath)
+F:\Temp\VB\Kabrian Report\Input.jpg=$(AppPath)
+F:\Temp\VB\Kabrian Report\Printer.jpg=$(AppPath)
+F:\Temp\VB\Kabrian Report\PrintPreview.jpg=$(AppPath)
+F:\Temp\VB\Kabrian Report\Search.jpg=$(AppPath)
+F:\Temp\VB\Kabrian Report\ShowAll.jpg=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\WIN98\SYSTEM\SWFLASH.OCX=$(WinSysPath)
+F:\Temp\VB\Kabrian Report\ReadMe.txt=$(AppPath)
+F:\Temp\VB\Kabrian Report\Settings.ini=$(AppPath)
+C:\WIN98\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+F:\Temp\VB\Kabrian Report\Toolbar.swf=$(AppPath)
+
+[Package|Kabrian Report|Configure Shared Files]
+Applicable=Yes
+F:\Temp\VB\Kabrian Report\Report.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Temp\VB\Kabrian Report\About.swf=No
+F:\Temp\VB\Kabrian Report\Database.mdb=Yes
+F:\Temp\VB\Kabrian Report\Edit.jpg=No
+F:\Temp\VB\Kabrian Report\Exit.jpg=No
+F:\Temp\VB\Kabrian Report\Input.jpg=No
+F:\Temp\VB\Kabrian Report\Printer.jpg=No
+F:\Temp\VB\Kabrian Report\PrintPreview.jpg=No
+F:\Temp\VB\Kabrian Report\Search.jpg=No
+F:\Temp\VB\Kabrian Report\ShowAll.jpg=No
+F:\Temp\VB\Kabrian Report\ReadMe.txt=No
+F:\Temp\VB\Kabrian Report\Settings.ini=No
+F:\Temp\VB\Kabrian Report\Toolbar.swf=No
+
+[Package|Kabrian Report|Distribution]
+Type=single
+Size=
+Title=Kabrian Report 3.0
+
+[Package|Kabrian Report|IconGroups]
+Group0=Kabrian Report 3.0
+PrivateGroup0=True
+Parent0=$(Programs)
+Group1=StartUp
+PrivateGroup1=True
+Parent1=$(Programs)
+
+[Package|Kabrian Report|Kabrian Report 3.0]
+Icon1=ReadMe.txt
+Title1=ReadMe
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=Report.exe
+Title2=Kabrian Report 3.0
+StartIn2=$(AppPath)
+Key2=Icon1
+
+[Package|Kabrian Report|StartUp]
+Icon1=Report.exe /c
+Title1=Report Backup Checker
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Kabrian Report|Package]
+PackageFolder=F:\Temp\VB\Kabrian Report\Report 3
+ProjectFolder=F:\Temp\VB\Kabrian Report
+ServerSideCab=
+File1=F:\Temp\VB\Kabrian Report\Report 3\setup.exe
+File2=F:\Temp\VB\Kabrian Report\Report 3\Setup.Lst
+File3=F:\Temp\VB\Kabrian Report\Report 3\Report.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
